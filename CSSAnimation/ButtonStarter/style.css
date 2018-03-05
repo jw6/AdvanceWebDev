@@ -1,3 +1,14 @@
+body {
+  background-color: #fcd04b;
+  font-family: Lato;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+}
+
 .btn {
   outline: none;
   border: none;
@@ -14,4 +25,15 @@
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 0 6px #efa424;
+}
+
+.btn:hover {
+  box-shadow: 0 4px #efa424;
+  top: 2px;
+}
+
+.btn:focus {
+  /*box-shadow: 0 0 #efa424;*/
+  box-shadow: none;
+  top: 6px;
 }
